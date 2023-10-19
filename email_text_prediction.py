@@ -50,8 +50,8 @@ add_selectbox = st.sidebar.selectbox(
 
 # Load your pre-trained model here
 model_path = 'C:\\Users\\Su Yee Mon\\Desktop\\final_enc_dec_21-20231018T163540Z-001\\final_enc_dec_21'
-tokenizer_encoder_path = "C:\\Users\\Su Yee Mon\\Desktop\\tokenizers.pkl"
-tokenizer_decoder_path = "C:\\Users\\Su Yee Mon\\Desktop\\tokenizers.pkl"
+tokenizer_encoder_path = "tokenizers.pkl"
+tokenizer_decoder_path = "tokenizers.pkl"
 embedding_matrix_enc_path = 'C:\\Users\\Su Yee Mon\\Desktop\\enc_embeddings.npy'
 embedding_matrix_dec_path = 'C:\\Users\\Su Yee Mon\\Desktop\\dec_embeddings.npy'
 max_len_enc = 16
